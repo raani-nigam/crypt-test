@@ -5,7 +5,7 @@ name: PQC Scan
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
   schedule:
     - cron: '0 6 * * 1'
